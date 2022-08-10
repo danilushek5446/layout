@@ -8,10 +8,18 @@ body{
 }
 
 .container{
+  max-width: 2560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__container{
   margin-left: auto;
   margin-right: auto;
   height: 100%;
   width: 100%;
+  max-width: 1920px;
 }
 
 .header{
@@ -123,6 +131,11 @@ body{
   background-color: #34547A;
 }
 
+.projects__container{
+  max-width: 1920px;
+  margin: auto;
+}
+
 .project-card{
   max-width: 141px;
   max-height: 50px;
@@ -159,6 +172,8 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  max-width: 1660px;
+  margin: auto;
 }
 
 .skils_content{
@@ -260,7 +275,7 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20%;
+  margin-bottom: 100px;
   max-width: 1115px;
   max-height: 604px;
   width: 100%;
@@ -279,8 +294,8 @@ ul{
 }
 
 .cell__picture{
-  max-width: 480px;
   width: 100%;
+  height: 100%;
 }
 
 .cell__hover div{
@@ -370,6 +385,11 @@ ul{
 .input-message{
   width: 100%;
   height: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
 }
 
 .form__button{
@@ -451,10 +471,6 @@ ul{
     margin: 44px 0 44px 0;
   }
 
-  .about__text{
-    max-width: 323px;
-  }
-
   .project-cards__first-row{
     flex-direction: column;
     width: auto;
@@ -481,6 +497,7 @@ ul{
     max-width: 320px;
     align-items: flex-end;
     width: 100%;
+    margin-bottom: 100px;
   }
 
   .skils__picture {
@@ -488,6 +505,7 @@ ul{
     max-width: 339px;
     max-height: 275px;
     flex-shrink: 1;
+    margin-top: 100px;
   }
 
   .skils__title{
@@ -556,6 +574,7 @@ ul{
     flex-direction: column;
     align-items: center;
     max-width: 542px;
+    height: 90px;
   }
 
   .input-message{

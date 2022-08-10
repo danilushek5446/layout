@@ -40,42 +40,48 @@
 
   <section class="projects">
     <div class="project-cards">
-      <img class="projects__first-project project-card" src="pictures/numbers__item.png">
-      <img class="projects__second-project project-card" src="pictures/numbers__item.png">
-      <img class="projects__third-project project-card" src="pictures/numbers__item.png">
-      <img class="projects__forth-project project-card" src="pictures/numbers__item.png">
-      <img class="projects__fifth-project project-card" src="pictures/numbers__item.png">
-      <img class="projects__sixth-project project-card" src="pictures/numbers__item.png">
+      <div class="project-cards__first-row">
+        <img class="projects__first-project project-card" src="pictures/numbers__item.png">
+        <img class="projects__second-project project-card" src="pictures/numbers__item.png">
+        <img class="projects__third-project project-card" src="pictures/numbers__item.png">
+      </div>
+      <div class="project-cards__second-row">
+        <img class="projects__forth-project project-card" src="pictures/numbers__item.png">
+        <img class="projects__fifth-project project-card" src="pictures/numbers__item.png">
+        <img class="projects__sixth-project project-card" src="pictures/numbers__item.png">
+      </div>
     </div>
   </section>
 
   <section class="skils">
-    <div class="skils_content">
-      <h1 class="skils__title">Мои навыки</h1>
-      <div class="skils__abilities">
-        <ul>
-          <li>
-            <span class="abilities__title">Adobe photoshop</span>
-            <div class="abilities__rectangle">
-              <span></span>
-            </div>
-          </li>
-          <li>
-            <span class="abilities__title">Adobe photoshop</span>
-            <div class="abilities__rectangle">
-              <span></span>
-            </div>
-          </li>
-          <li>
-            <span class="abilities__title">Adobe photoshop</span>
-            <div class="abilities__rectangle">
-              <span></span>
-            </div>
-          </li>
-        </ul>
+    <div class="skils__container">
+      <div class="skils_content">
+        <h1 class="skils__title">Мои навыки</h1>
+        <div class="skils__abilities">
+          <ul class="abilities__ul">
+            <li>
+              <span class="abilities__title">Adobe photoshop</span>
+              <div class="abilities__rectangle">
+                <div></div>
+              </div>
+            </li>
+            <li>
+              <span class="abilities__title">Adobe photoshop</span>
+              <div class="abilities__rectangle">
+                <div></div>
+              </div>
+            </li>
+            <li>
+              <span class="abilities__title">Adobe photoshop</span>
+              <div class="abilities__rectangle">
+                <div></div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
+      <img src="pictures/Rectangle 3.png" class="skils__picture">
     </div>
-    <img src="pictures/Rectangle 3.png" class="skils__picture">
   </section>
 
   <section class="video-section"> 
@@ -90,56 +96,56 @@
 
   <section class="info">
     <div class="info__grid">
-      <div class="grid__cell">
+      <div class="grid__cell cell-1">
         <img src="pictures/Rectangle 7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-2">
         <img src="pictures/Rectangle 7.7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-3">
         <img src="pictures/Rectangle 7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-4">
         <img src="pictures/Rectangle 7.7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-5">
         <img src="pictures/Rectangle 7.7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-6">
         <img src="pictures/Rectangle 7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-7">
         <img src="pictures/Rectangle 7.7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
           <div></div>
         </div>
       </div>
-      <div class="grid__cell">
+      <div class="grid__cell cell-8">
         <img src="pictures/Rectangle 7.png" class="cell__picture">
         <div class="cell__hover">
           <img src="pictures/Group.png" class="cell__eye">
@@ -158,7 +164,9 @@
       <input type="text" class="input__name" placeholder="Ваше имя">
       <input type="email" class="input__email" placeholder="Ваш e-mail">
     </div>
-    <textarea class="form__input-message" placeholder="Сообщение"></textarea></textarea>
+    <div class="form__input-message">
+      <textarea class="input-message" placeholder="Сообщение"></textarea></textarea>
+    </div>
     <button class="button form__button">ОТПРАВИТЬ</button>
   </section>
 
